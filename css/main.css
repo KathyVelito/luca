@@ -1,0 +1,14 @@
+.serviceimg {
+    width: 433px;
+    height: 433px;
+}
+
+.serviceicn {
+    width: 35px;
+    height: 35px;
+    border: 3px solid ;
+    border-radius: 100%;
+    text-align: center;
+    padding: 5px;
+    background-color: #61D2E7;
+}
