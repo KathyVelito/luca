@@ -1,19 +1,142 @@
-footer {
-    background-color: #395486;
+body {
+    background-color: #E5E5E5;
+    width: 100%;
+}
+
+section {
+    padding: 100px 0;
+}
+
+.h1 {
+    font-size: 30px;
+    font-weight: 700;
+
+}
+
+.color {
+    color: rgba(96, 147, 203, 1) ;
+}
+
+.section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.section1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 200px;
+}
+
+.navbar {
+    background-color: #ffffff;
+    color: #222222;
+    padding: 0 50px;
+
+}
+
+.nav-link {
+    color: #222222;
+    
+}
+
+.btn1 {
+    background-color: rgba(96, 147, 203, 1);
     color: #ffffff;
+    font-size: 13px;
+    font-weight: 500;
+    height: 34px;
+    margin-left: 13px;
+    text-align: center;
+    width: 90px;
+    text-decoration: none;
+}
+
+.btn2 {
+    background-color: rgba(96, 147, 203, 1);
+    color: #ffffff;
+    width: 197px;
+    height: 43px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.btn3 {
+    background-color: rgba(96, 147, 203, 1);
+    color: #ffffff;
+    width: 123px;
+    height: 32px;
+    font-size: 15px;
+    margin-top: 20px;
+    
+}
+
+.parrafo {
+    width: 410px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
 }
 
 .serviceimg {
-    width: 433px;
-    height: 433px;
+    width: 435px;
+    height: 435px;
 }
 
 .serviceicn {
-    width: 35px;
-    height: 35px;
-    border: 3px solid ;
-    border-radius: 100%;
-    text-align: center;
+    width: 53px;
+    height: 53px;
+    border: 5px solid rgba(97, 210, 231, 0.75);
+    border-radius: 50%;
+    font-size: 25px;
+    margin-bottom: 13px;
     padding: 5px;
-    background-color: #61D2E7;
+    text-align: center;
+    background-color:rgba(97, 210, 231, 1);
+    color: #ffffff;
+}
+
+.bg {
+    background-color: #F0F5FA;
+}
+
+.ico {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 65px;
+}
+
+.icon {
+    color: #222222;
+    font-size: 60px;
+}
+
+footer {
+    background-color: rgba(57, 84, 134, 1);
+    color: #ffffff;
+    font-weight: 300;
+    padding-top: 47px;
+    padding-bottom: 5px;
+}
+
+.pais {
+    display: flex;
+    font-size: 13px;
+    margin-bottom: 2px;
+}
+
+.pais1 {
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+}
+
+.link {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 13px;
 }
