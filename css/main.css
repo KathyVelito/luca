@@ -7,10 +7,22 @@ section {
     padding: 100px 0;
 }
 
+.link1 {
+    color: rgba(97, 210, 231, 1);
+    font-size: 16px;
+    font-weight: 400;
+}
+
 .h1 {
     font-size: 30px;
     font-weight: 700;
+    line-height: 42px;
 
+}
+
+.linea {
+    line-height: 1px;
+    width: 10%;
 }
 
 .color {
@@ -36,12 +48,27 @@ section {
     background-color: #ffffff;
     color: #222222;
     padding: 0 50px;
+    font-size: 12px;
 
+}
+
+.navbar-brand {
+    margin-right: 60px;
 }
 
 .nav-link {
     color: #222222;
-    
+    font-weight: 500;
+    margin-right: 10px;
+
+}
+
+.btn-out {
+    color: rgba(96, 147, 203, 1);
+    border: 1px solid rgba(96, 147, 203, 1);
+    font-size: 13px;
+    font-weight: 500;
+    width: 90px;
 }
 
 .btn1 {
@@ -79,6 +106,7 @@ section {
     width: 410px;
     display: flex;
     flex-direction: column;
+    margin-top: 15px;
     align-content: center;
 }
 
@@ -118,25 +146,35 @@ section {
 footer {
     background-color: rgba(57, 84, 134, 1);
     color: #ffffff;
-    font-weight: 300;
-    padding-top: 47px;
+    padding-top: 45px;
     padding-bottom: 5px;
 }
 
 .pais {
     display: flex;
+    text-align: center;
     font-size: 13px;
-    margin-bottom: 2px;
+    color: rgba(255, 255, 255, 0.7);
 }
 
 .pais1 {
-    width: 25px;
-    height: 25px;
+    width: 24px;
+    height: 24px;
     margin-right: 10px;
 }
 
 .link {
     text-decoration: none;
-    color: #ffffff;
+    color: rgba(255, 255, 255, 0.7);
     font-size: 13px;
+    font-weight: 400;
+    list-style: none;
+    margin-bottom: 15px;
 }
+
+.foot {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 11px;
+    text-align: center;
+}
+
