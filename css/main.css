@@ -1,5 +1,4 @@
 body {
-    background-color: #E5E5E5;
     width: 100%;
 }
 
@@ -11,6 +10,11 @@ section {
     color: rgba(97, 210, 231, 1);
     font-size: 16px;
     font-weight: 400;
+    text-decoration: none;
+}
+
+.link1:hover {
+    color: #6093CB;
 }
 
 .h1 {
@@ -47,9 +51,9 @@ section {
 .navbar {
     background-color: #ffffff;
     color: #222222;
-    padding: 0 50px;
-    font-size: 12px;
-
+    font-size: 14px;
+    box-shadow: 0px 10px 20px rgba(145, 145, 145, 0.25);
+    min-height: 60px;
 }
 
 .navbar-brand {
@@ -71,6 +75,11 @@ section {
     width: 90px;
 }
 
+.btn-out:hover {
+    background: rgba(96, 147, 203, 1);
+    color: white;
+}
+
 .btn1 {
     background-color: rgba(96, 147, 203, 1);
     color: #ffffff;
@@ -83,31 +92,58 @@ section {
     text-decoration: none;
 }
 
+.btn1:hover {
+    background: #395486;
+    color: white;
+}
+
 .btn2 {
-    background-color: rgba(96, 147, 203, 1);
+    align-items: center;
+    background: #6093CB;
+    border-radius: 4px;
+    box-shadow: 0px 10px 20px rgba(96, 147, 203, 0.4);
     color: #ffffff;
-    width: 197px;
-    height: 43px;
+    display: flex;
     font-size: 20px;
+    height: 43px;
+    justify-content: center;
     text-align: center;
+    width: 197px;
+}
+
+.btn2:hover {
+    background: #395486;
+    color: white;
 }
 
 .btn3 {
-    background-color: rgba(96, 147, 203, 1);
+    background: #6093CB;
+    box-shadow: 0px 10px 20px rgba(96, 147, 203, 0.4);
+    border-radius: 4px;
     color: #ffffff;
     width: 123px;
     height: 32px;
-    font-size: 15px;
+    font-size: 16px;
     margin-top: 20px;
-    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn3:hover {
+    background: #395486;
+    color: white;
 }
 
 .parrafo {
-    width: 410px;
     display: flex;
     flex-direction: column;
     margin-top: 15px;
     align-content: center;
+}
+
+.parrafo .text {
+    color: #4F5C7F;
 }
 
 .serviceimg {
@@ -118,14 +154,25 @@ section {
 .serviceicn {
     width: 53px;
     height: 53px;
-    border: 5px solid rgba(97, 210, 231, 0.75);
+    border: 5px solid rgba(97, 210, 231, 0.5);
     border-radius: 50%;
     font-size: 25px;
     margin-bottom: 13px;
-    padding: 5px;
     text-align: center;
-    background-color:rgba(97, 210, 231, 1);
     color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.serviceicn-bk {
+    background-color:rgba(97, 210, 231, 1);
+    width: 43px;
+    height: 43px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .bg {
@@ -178,3 +225,53 @@ footer {
     text-align: center;
 }
 
+.banner {
+    padding: 100px 0;
+}
+
+.banner--img {
+    width: 80%;
+}
+
+.link-play i {
+    font-size: 30px;
+    padding-right: 10px;
+}
+
+.link-play span {
+    font-size: 16px;
+}
+
+.banner-2 {
+    background: rgba(96, 147, 203, 0.1);
+}
+
+.sub-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.sub-title h2 {
+    font-weight: bold;
+    font-size: 30px;
+    color: #222222;
+    margin-top: 12px;
+}   
+
+.sub-title .line {
+    background: #6093CB;
+    width: 143px;
+    height: 2px;
+}
+
+.parrafo-2 p {
+    color: #4C4C4C
+}
+
+@media screen and (min-width: 768px) { 
+    .banner {
+        padding: 7% 0;
+    }
+}
