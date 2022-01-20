@@ -41,6 +41,10 @@ section {
     margin: 0 auto;
 }
 
+header {
+    z-index: 900;
+}
+
 .navbar {
     background-color: #ffffff;
     color: #222222;
@@ -131,7 +135,6 @@ section {
 
 .chk {
     color: rgba(97, 210, 231, 1);
-    margin-right: 5px;
 }
 
 .tipe {
@@ -336,6 +339,10 @@ footer {
 
 .list {
     margin-top: 5px;
+}
+
+.table {
+    background: rgba(240, 245, 250, 1);
 }
 
 @media screen and (min-width: 768px) { 
