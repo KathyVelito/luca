@@ -108,6 +108,7 @@ section {
     height: 43px;
     justify-content: center;
     text-align: center;
+    text-decoration: none;
     width: 197px;
 }
 
@@ -133,6 +134,24 @@ section {
 .btn3:hover {
     background: #395486;
     color: white;
+}
+
+.chk {
+    color: rgba(97, 210, 231, 1);
+}
+
+.check {
+    border: 1px solid;
+    border-radius: 50%;
+    font-size: 13px;
+    padding: 4px;
+}
+
+.tipe {
+    color: rgba(76, 76, 76, 1);
+    font-size: 14px;
+    font-weight: 400;
+    list-style: none;
 }
 
 .parrafo {
@@ -217,6 +236,10 @@ footer {
     font-weight: 400;
     list-style: none;
     margin-bottom: 15px;
+}
+
+.link :hover {
+    color: white;
 }
 
 .foot {
