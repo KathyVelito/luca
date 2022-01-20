@@ -41,13 +41,6 @@ section {
     margin: 0 auto;
 }
 
-.section1 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 50px 200px;
-}
-
 .navbar {
     background-color: #ffffff;
     color: #222222;
@@ -138,13 +131,7 @@ section {
 
 .chk {
     color: rgba(97, 210, 231, 1);
-}
-
-.check {
-    border: 1px solid;
-    border-radius: 50%;
-    font-size: 13px;
-    padding: 4px;
+    margin-right: 5px;
 }
 
 .tipe {
@@ -197,6 +184,8 @@ section {
 .bg {
     background-color: #F0F5FA;
 }
+
+
 
 .ico {
     font-size: 20px;
@@ -291,6 +280,62 @@ footer {
 
 .parrafo-2 p {
     color: #4C4C4C
+}
+
+/* price*/
+
+
+.bg-blue {
+    background: rgba(96, 147, 203, 0.1);
+}
+
+.blue {
+    color: rgba(79, 92, 127, 1);
+}
+
+.green {
+    color: rgba(123, 214, 138, 1);
+}
+
+.bluec {
+    color: rgba(96, 147, 203, 1);
+}
+
+.bluel {
+    color: rgba(97, 210, 231, 1);
+}
+
+.card {
+    border-radius: 10px;
+}
+
+.card-head{
+    background-color: rgba(96, 147, 203, 1);
+    border-radius: 10px 10px 0 0;
+    color: #ffffff;
+    font-size: 10px;
+    height: 30px;
+    text-align: center;
+    padding-top: 10px;
+    
+} 
+
+.check {
+    border: 1px solid;
+    border-radius: 50%;
+    font-size: 9px;
+    padding: 3px;
+    margin-right: 5px;
+}
+
+.lista {
+    list-style: none;
+    margin-top: 10px;
+    text-align: left;
+}
+
+.list {
+    margin-top: 5px;
 }
 
 @media screen and (min-width: 768px) { 

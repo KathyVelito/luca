@@ -12,7 +12,7 @@
         <title>Punto de Venta</title>
     </head>
 <body>
-    <header class="position-fixed w-100">
+    <header class="position-fixed w-100 z-index-100">
         <nav class="navbar navbar-light navbar-expand-lg">
             <div class="container">
                 <a class="navbar-brand" href="./index.html">
@@ -77,9 +77,9 @@
         </div>       
     </section>
 
-    <section>
-        <div class="container">
-            <div class="row">
+    <section class="bg-blue ">
+        <div class="container py-5">
+            <div class="row mb-5">
                 <div class="col-md-12 text-center">
                     <div class="sub-title">
                         <span class="line"></span>
@@ -87,86 +87,108 @@
                     </div>
                 </div>
             </div>
-            <div class="row bg-danger">
+            <div class="row">
                 <div class="col-3">
-                    <div class="card">
+                    <div class="card h-100 shadow-lg">
                         <div class="card-body">
-                            <h5 class="card-title">Luca básico</h5>
-                            <h6 class="card-subtitle mb-2 text-muted">Gratis</h6>
-                            <button class="btn btn-out">
-                                Iniciar
-                            </button>
-                            <p class="card-text">Aspectos destacados del plan</p>
-                            <ul>
-                                <li><i class="icon-check"></i>1 Punto de venta</li>
+                            <div class="text-center">
+                                <h5 class="card-title blue">Luca básico</h5>
+                                <span class="h2 blue">Gratis</span>
+                                <br>
+                                <div class="card-body text-center">
+                                    <button class="btn btn-out">
+                                        Iniciar
+                                    </button>
+                                </div>
+                                <hr>
+                                <p class="card-text blue">Aspectos destacados del plan</p>
+                            </div>
+                            <ul class="lista">
+                                <li class=""><i class="icon-check check blue"></i>1 Punto de venta</li>
                             </ul>
                         </div>
                       </div>
                 </div>
                 <div class="col-3">
-                    <div class="card">
+                    <div class="card h-100 shadow-lg">
                         <div class="card-body">
-                            <h5 class="card-title">Luca emprende</h5>
-                            <h6 class="card-subtitle mb-2 text-muted">S/ 1.00 / mensual</h6>
-                            <p>suscripción anual: se renueva automáticamente</p>
-                            <p>Incluye IGV</p>
-                            <button class="btn btn-out">
-                                Contratar
-                            </button>
-                            <p class="card-text">Aspectos destacados del plan</p>
-                            <ul>
-                                <li><i class="icon-check"></i>2 Punto de venta</li>
-                                <li><i class="icon-check"></i>Tienda virtual</li>
-                                <li><i class="icon-check"></i>App Delivery</li>
-                                <li><i class="icon-check"></i>Facturación electrónica</li>
-                                <li><i class="icon-check"></i>Soporte y capacitación</li>
+                            <div class="text-center">
+                                <h5 class="card-title green">Luca emprende</h5>
+                                <p class="green"><small>S/</small><span class="h1"> 1.00 </span>/ mensual</p>
+                                <p class="blue">suscripción anual: se renueva automáticamente</p>
+                                <p class="text-muted">Incluye IGV</p>
+                                <div class="text-center">
+                                    <button class="btn btn-out">
+                                        Contratar
+                                    </button>
+                                </div>
+                                <hr>
+                                <p class="card-text">Aspectos destacados del plan</p>
+                            </div>
+                            <div class="">
+                                <ul class="lista">
+                                    <li class="list"><i class="icon-check check green"></i>2 Puntos de venta</li>
+                                    <li class="list"><i class="icon-check check green"></i>Tienda virtual</li>
+                                    <li class="list"><i class="icon-check check green"></i>App Delivery</li>
+                                    <li class="list"><i class="icon-check check green"></i>Facturación electrónica</li>
+                                    <li class="list"><i class="icon-check check green"></i>Soporte y capacitación</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="card h-100 shadow-lg">
+                        <div class="card-head">
+                            <p>El más popular</p>
+                        </div>
+                        <div class="card-body">
+                            <div class="text-center">
+                                <h5 class="card-title bluec">Luca</h5>
+                                <p><small class="bluec">S/ </small><span class="h1 bluec"> 2.00 </span> / mensual</p>
+                                <p class="blue">suscripción anual: se renueva automáticamente</p>
+                                <p class="text-muted">Incluye IGV</p>
+                                <button class="btn btn1">
+                                    Contratar
+                                </button>
+                                <hr class="">
+                                <p class="card-text">Aspectos destacados del plan</p>
+                            </div>
+                            <ul class="lista">
+                                <li class="list"><i class="icon-check check bluec"></i>5 Puntos de venta</li>
+                                <li class="list"><i class="icon-check check bluec"></i>Tienda virtual</li>
+                                <li class="list"><i class="icon-check check bluec"></i>App Delivery</li>
+                                <li class="list"><i class="icon-check check bluec"></i>Facturación electrónica</li>
+                                <li class="list"><i class="icon-check check bluec"></i>Soporte y capacitación</li>
+                                <li class="list"><i class="icon-check check bluec"></i>Inventario productos</li>
+                                <li class="list"><i class="icon-check check bluec"></i>Inteligencia mercado</li>
                             </ul>
                         </div>
                     </div>
                 </div>
                 <div class="col-3">
-                    <div class="card">
+                    <div class="card h-100 shadow-lg">
                         <div class="card-body">
-                            <h5 class="card-title">Luca emprende</h5>
-                            <h6 class="card-subtitle mb-2 text-muted">S/ 2.00 / mensual</h6>
-                            <p>suscripción anual: se renueva automáticamente</p>
-                            <p>Incluye IGV</p>
-                            <button class="btn btn-out">
-                                Contratar
-                            </button>
-                            <p class="card-text">Aspectos destacados del plan</p>
-                            <ul>
-                                <li><i class="icon-check"></i>5 Punto de venta</li>
-                                <li><i class="icon-check"></i>Tienda virtual</li>
-                                <li><i class="icon-check"></i>App Delivery</li>
-                                <li><i class="icon-check"></i>Facturación electrónica</li>
-                                <li><i class="icon-check"></i>Soporte y capacitación</li>
-                                <li><i class="icon-check"></i>Inventario productos</li>
-                                <li><i class="icon-check"></i>Inteligencia mercado</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-3">
-                    <div class="card">
-                        <div class="card-body">
-                            <h5 class="card-title">Luca emprende</h5>
-                            <h6 class="card-subtitle mb-2 text-muted">S/ 2.00 / mensual</h6>
-                            <p>suscripción anual: se renueva automáticamente</p>
-                            <p>Incluye IGV</p>
-                            <button class="btn btn-out">
-                                Contratar
-                            </button>
-                            <p class="card-text">Aspectos destacados del plan</p>
-                            <ul>
-                                <li><i class="icon-check"></i>5 Punto de venta</li>
-                                <li><i class="icon-check"></i>Tienda virtual</li>
-                                <li><i class="icon-check"></i>App Delivery</li>
-                                <li><i class="icon-check"></i>Facturación electrónica</li>
-                                <li><i class="icon-check"></i>Soporte y capacitación</li>
-                                <li><i class="icon-check"></i>Inventario productos</li>
-                                <li><i class="icon-check"></i>Inteligencia mercado</li>
-                                <li><i class="icon-check"></i>Marketing digital</li>
+                            <div class="text-center">
+                                <h5 class="card-title bluel">Luca digital</h5>
+                                <p class="blue"><small class=" bluel">S/</small><span class="h1 bluel"> 3.00</span> / mensual</p>
+                                <p class="blue">suscripción anual: se renueva automáticamente</p>
+                                <p class="text-muted">Incluye IGV</p>
+                                <button class="btn btn-out">
+                                    Contratar
+                                </button>
+                                <hr>
+                                <p class="card-text bluel">Aspectos destacados del plan</p>
+                            </div>
+                            <ul class="lista">
+                                <li class="list"><i class="icon-check check bluel"></i>10 Puntos de venta</li>
+                                <li class="list"><i class="icon-check check bluel"></i>Tienda virtual</li>
+                                <li class="list"><i class="icon-check check bluel"></i>App Delivery</li>
+                                <li class="list"><i class="icon-check check bluel"></i>Facturación electrónica</li>
+                                <li class="list"><i class="icon-check check bluel"></i>Soporte y capacitación</li>
+                                <li class="list"><i class="icon-check check bluel"></i>Inventario productos</li>
+                                <li class="list"><i class="icon-check check bluel"></i>Inteligencia mercado</li>
+                                <li class="list"><i class="icon-check check bluel"></i>Marketing digital</li>
                             </ul>
                         </div>
                     </div>
@@ -189,11 +211,11 @@
                 <table class="table table-striped">
                     <thead>
                         <tr>
-                        <th scope="col">#</th>
-                        <th scope="col">Gratis</th>
-                        <th scope="col">Emprende</th>
-                        <th scope="col">Luca</th>
-                        <th scope="col">Digital</th>
+                        <th scope="col"></th>
+                        <th scope="col" class="blue">Gratis</th>
+                        <th scope="col" class="green">Emprende</th>
+                        <th scope="col" class="bluec">Luca</th>
+                        <th scope="col" class="bluel">Digital</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -207,51 +229,51 @@
                         <tr>
                             <th scope="row" class="h6">Tienda virtual</th>
                             <td></td>
-                            <td><i class="icon-check check"></i></td>
-                            <td><i class="icon-check check"></i></td>
-                            <td><i class="icon-check check"></i></td>
+                            <td><i class="icon-check check green"></i></td>
+                            <td><i class="icon-check check bluec"></i></td>
+                            <td><i class="icon-check check bluel"></i></td>
                         </tr>
                         <tr>
                             <th scope="row" class="h6">App Delivery</th>
                             <td></td>
-                            <td><i class="icon-check check"></i></td>
-                            <td><i class="icon-check check"></i></td>
-                            <td><i class="icon-check check"></i></td>
+                            <td><i class="icon-check check green"></i></td>
+                            <td><i class="icon-check check bluec"></i></td>
+                            <td><i class="icon-check check bluel"></i></td>
                         </tr>
                         <tr>
                             <th scope="row" class="h6">Facturación electrónica</th>
                             <td></td>
-                            <td><i class="icon-check check"></i></td>
-                            <td><i class="icon-check check"></i></td>
-                            <td><i class="icon-check check"></i></td>
+                            <td><i class="icon-check check green"></i></td>
+                            <td><i class="icon-check check bluec"></i></td>
+                            <td><i class="icon-check check bluel"></i></td>
                             </tr>
                         <tr>
                             <th scope="row" class="h6">Inventario productos</th>
                             <td></td>
                             <td></td>
-                            <td><i class="icon-check check"></i></td>
-                            <td><i class="icon-check check"></i></td>
+                            <td><i class="icon-check check bluec"></i></td>
+                            <td><i class="icon-check check bluel"></i></td>
                         </tr>
                         <tr>
                             <th scope="row" class="h6">Inteligencia mercado</th>
                             <td></td>
                             <td></td>
-                            <td><i class="icon-check check"></i></td>
-                            <td><i class="icon-check check"></i></td>
+                            <td><i class="icon-check check bluec"></i></td>
+                            <td><i class="icon-check check bluel"></i></td>
                         </tr>
                         <tr>
                             <th scope="row" class="h6">Marketing digital</th>
                             <td></td>
                             <td></td>
                             <td></td>
-                            <td><i class="icon-check check"></i></td>
+                            <td><i class="icon-check check bluel"></i></td>
                         </tr>
                         <tr>
                             <th scope="row" class="h6">Soporte y capacitación</th>
                             <td></td>
-                            <td><i class="icon-check check"></i></td>
-                            <td><i class="icon-check check"></i></td>
-                            <td><i class="icon-check check"></i></td>
+                            <td><i class="icon-check check green"></i></td>
+                            <td><i class="icon-check check bluec"></i></td>
+                            <td><i class="icon-check check bluel"></i></td>
                         </tr>
                         <tr>
                             <th scope="row"></th>
