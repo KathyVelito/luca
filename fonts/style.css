@@ -25,6 +25,18 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-wsp:before {
+  content: "\e910";
+}
+.icon-inst:before {
+  content: "\e911";
+}
+.icon-fb:before {
+  content: "\e912";
+}
+.icon-tw:before {
+  content: "\e913";
+}
 .icon-bisuteria:before {
   content: "\e900";
 }
