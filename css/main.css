@@ -1,5 +1,7 @@
 body {
     width: 100%;
+    font-family: 'Poppins', sans-serif;
+    color: #222222;
 }
 
 section {
@@ -78,7 +80,11 @@ header {
     border: 1px solid rgba(96, 147, 203, 1);
     font-size: 13px;
     font-weight: 500;
-    width: 90px;
+    width: 100px;
+}
+
+.navbar .btn-out {
+    margin-right: 10px;
 }
 
 .btn-out:hover {
@@ -92,9 +98,8 @@ header {
     font-size: 13px;
     font-weight: 500;
     height: 34px;
-    margin-left: 13px;
     text-align: center;
-    width: 90px;
+    width: 100px;
     text-decoration: none;
 }
 
@@ -115,7 +120,7 @@ header {
     justify-content: center;
     text-align: center;
     text-decoration: none;
-    width: 197px;
+    width: 224px;
 }
 
 .btn2:hover {
@@ -130,7 +135,7 @@ header {
     color: #ffffff;
     width: 123px;
     height: 32px;
-    font-size: 16px;
+    font-size: 14px;
     margin-top: 20px;
     display: flex;
     align-items: center;
@@ -158,6 +163,12 @@ header {
     margin-right: 7px;
 }
 
+.tipe li {
+    font-size: 14px;
+    color: #4C4C4C;
+    font-weight: 400;
+}
+
 .parrafo {
     display: flex;
     flex-direction: column;
@@ -167,6 +178,7 @@ header {
 
 .parrafo .text {
     color: #4F5C7F;
+    font-size: 14px;
 }
 
 .serviceimg {
@@ -202,12 +214,16 @@ header {
     background-color: #F0F5FA;
 }
 
-
+.card-text {
+    font-size: 12px;
+    margin-bottom: 15px !important;
+}
 
 .ico {
-    font-size: 20px;
+    font-size: 16px;
     text-align: center;
     margin-top: 65px;
+    font-weight: 500;
 }
 
 .icon {
@@ -283,7 +299,7 @@ footer {
 }
 
 .sub-title h2 {
-    font-weight: bold;
+    font-weight: 600;
     font-size: 30px;
     color: #222222;
     margin-top: 12px;
@@ -297,6 +313,7 @@ footer {
 
 .parrafo-2 p {
     color: #4C4C4C;
+<<<<<<< HEAD
 
 }
 
@@ -332,6 +349,13 @@ footer {
 .rojo {
     color: rgba(248, 68, 55, 1);
     margin-top: 10px;
+    font-size: 14px;
+    font-weight: 400
+}
+
+.parrafo-2 h3 {
+    font-size: 24px;
+    font-weight: 600;
 }
  .azul {
      color: rgba(0, 127, 255, 1);
@@ -372,7 +396,7 @@ footer {
     font-size: 10px;
     height: 30px;
     text-align: center;
-    padding-top: 10px;
+    padding-top: 8px;
     
 } 
 
@@ -400,8 +424,27 @@ footer {
 }
 
 .table {
-    border: 1px solid rgba(240, 245, 250, 1);
+    border: 1px solid #F0F5FA;
     margin-top: 50px;
+}
+
+.table thead th {
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.table tbody th {
+    font-size: 14px;
+    vertical-align: middle;
+    font-weight: 400;
+    padding: 15px;
+}
+
+.table tbody td {
+    font-size: 14px;
+    vertical-align: middle;
+    font-weight: 400;
+    padding: 15px;
 }
 
 .h6 {
@@ -438,6 +481,42 @@ iframe {
     top: 0;
     left: 0;
     width: 100%;
+}
+
+.card-title {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.card-body .h2 {
+    font-size: 26px;
+    font-weight: 500;
+}
+
+.card-body .h1 {
+    font-size: 26px;
+    font-weight: 500;
+}
+
+.card-body .mon {
+    color: #8F97AD;
+    font-size: 11px;
+    font-weight: 300;
+}
+
+.card-body .bajada {
+    font-size: 11px;
+    font-weight: 500;
+}
+
+.card-body .incluye {
+    font-size: 11px;
+    color: #9DA4B7 !important;
+}
+
+.lista-2 li {
+    font-size: 12px;
+    margin-top: 7px;
 }
 
 @media screen and (min-width: 768px) { 
