@@ -5,7 +5,7 @@ body {
 }
 
 section {
-    padding: 100px 0;
+    padding: 60px 0;
 }
 
 .link1 {
@@ -517,6 +517,6 @@ iframe {
 
 @media screen and (min-width: 768px) { 
     .banner {
-        padding: 10% 0;
+        padding: 10% 0 50px 0;
     }
 }
