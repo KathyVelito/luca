@@ -169,6 +169,10 @@ header {
     font-weight: 400;
 }
 
+.hidden {
+    visibility: hidden;
+}
+
 .parrafo {
     display: flex;
     flex-direction: column;
@@ -271,7 +275,7 @@ footer {
 }
 
 .banner {
-    padding: 100px 0;
+    padding: 150px 0;
 }
 
 .banner--img {
@@ -298,6 +302,7 @@ footer {
     flex-direction: column;
 }
 
+
 .sub-title h2 {
     font-weight: 600;
     font-size: 30px;
@@ -311,8 +316,9 @@ footer {
     height: 2px;
 }
 
+
 .parrafo-2 p {
-    color: #4C4C4C;
+    color: #4C4C4C;   
 }
 
 /* support*/
@@ -513,6 +519,19 @@ iframe {
 .lista-2 li {
     font-size: 12px;
     margin-top: 7px;
+}
+
+@keyframes mover{
+    0% {
+        transform: translateY(100%);
+        opacity: 100%;
+        visibility: visible;
+    }
+
+    50% {
+        opacity: 50%;
+    }
+
 }
 
 @media screen and (min-width: 768px) { 
