@@ -26,7 +26,7 @@ window.addEventListener('scroll', function() {
     let pantalla = window.innerHeight/1;
 
     if(posicion < pantalla) {
-        mover.style.animation = 'mover 3s ease-out forwards' 
+        mover.style.animation = 'mover 4s ease-out forwards' 
     }
 })
 
@@ -37,7 +37,7 @@ window.addEventListener('scroll', function() {
     let pantalla = window.innerHeight/1;
 
     if(posicion < pantalla) {
-        subir.style.animation = 'mover 3s ease-out forwards' 
+        subir.style.animation = 'mover 4s ease-out forwards' 
     }
 })
 
@@ -48,6 +48,6 @@ window.addEventListener('scroll', function() {
     let pantalla = window.innerHeight/1;
 
     if(posicion < pantalla) {
-        move.style.animation = 'mover 3s ease-out forwards' 
+        move.style.animation = 'mover 4s ease-out forwards' 
     }
 })
