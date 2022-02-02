@@ -279,6 +279,10 @@ footer {
 }
 
 .banner--img {
+    width: 80%;
+}
+
+.banner--img__home {
     width: 100%;
 }
 
@@ -548,6 +552,6 @@ iframe {
 
 @media screen and (min-width: 768px) { 
     .banner {
-        padding: 10% 0 50px 0;
+        padding: 8% 0 50px 0;
     }
 }
