@@ -1,53 +1,53 @@
 window.addEventListener('scroll', function() {
     let animado = document.getElementById('animado');
+    let height = window.innerHeight;
     let posicion = animado.offsetTop;
-    console.log(posicion);
     let pantalla = window.scrollY;
 
-    if(posicion - 200 < pantalla) {
+    if(posicion - height - 100 < pantalla) {
         animado.classList.add('appear')
     }
 })
 window.addEventListener('scroll', function() {
     let animar = document.getElementById('animar');
+    let height = window.innerHeight;
     let posicion = animar.offsetTop;
-    console.log(posicion);
     let pantalla = window.scrollY;
 
-    if(posicion - 200 < pantalla) {
+    if(posicion - height - 100 < pantalla) {
         animar.classList.add('appear') 
     }
 })
 
 window.addEventListener('scroll', function() {
     let mover = document.getElementById('mover');
+    let height = window.innerHeight;
     let posicion = mover.offsetTop;
-    console.log(posicion);
     let pantalla = window.scrollY;
 
-    if(posicion - 200 < pantalla) {
+    if(posicion - height - 50 < pantalla) {
         mover.classList.add('appear') 
     }
 })
 
 window.addEventListener('scroll', function() {
     let subir = document.getElementById('subir');
+    let height = window.innerHeight;
     let posicion = subir.offsetTop;
-    console.log(posicion);
     let pantalla = window.scrollY;
 
-    if(posicion - 200 < pantalla) {
+    if(posicion - height - 20 < pantalla) {
         subir.classList.add('appear') 
     }
 })
 
 window.addEventListener('scroll', function() {
     let move = document.getElementById('move');
+    let height = window.innerHeight;
     let posicion = move.offsetTop;
-    console.log(posicion);
     let pantalla = window.scrollY;
 
-    if(posicion - 200 < pantalla) {
+    if(posicion - height - 30 < pantalla) {
         move.classList.add('appear') 
     }
 })
