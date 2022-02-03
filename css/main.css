@@ -526,13 +526,13 @@ iframe {
 }
 
 .nonAppear {
-    transition: all 0.7s ease-in-out;
+    transition: all 1.2s ease-in-out;
     transform: translateY(40px);
     opacity: 0;
 }
 
 .appear {
-    transition: all 0.7s ease-in-out;
+    transition: all 1.2s ease-in-out;
     transform: translateY(0);
     opacity: 1;
 }

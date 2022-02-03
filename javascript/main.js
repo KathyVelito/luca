@@ -25,7 +25,7 @@ window.addEventListener('scroll', function() {
     let posicion = mover.offsetTop;
     let pantalla = window.scrollY;
 
-    if(posicion - height + 80 < pantalla) {
+    if(posicion - height + 120 < pantalla) {
         mover.classList.add('appear') 
     }
 })
@@ -36,7 +36,7 @@ window.addEventListener('scroll', function() {
     let posicion = subir.offsetTop;
     let pantalla = window.scrollY;
 
-    if(posicion - height + 80 < pantalla) {
+    if(posicion - height + 120 < pantalla) {
         subir.classList.add('appear') 
     }
 })
@@ -47,7 +47,7 @@ window.addEventListener('scroll', function() {
     let posicion = move.offsetTop;
     let pantalla = window.scrollY;
 
-    if(posicion - height + 80 < pantalla) {
+    if(posicion - height + 120 < pantalla) {
         move.classList.add('appear') 
     }
 })
