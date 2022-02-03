@@ -20,7 +20,7 @@ section {
 }
 
 .h1 {
-    font-size: 30px;
+    font-size: 34px;
     font-weight: 700;
     line-height: 42px;
 
@@ -182,7 +182,7 @@ header {
 
 .parrafo .text {
     color: #4F5C7F;
-    font-size: 14px;
+    font-size: 18px;
 }
 
 .serviceimg {
@@ -296,7 +296,7 @@ footer {
 }
 
 .banner-2 {
-    background: rgba(96, 147, 203, 0.1);
+    width: 50%;
 }
 
 .sub-title {
